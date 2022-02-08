@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.videobackgroundspace{
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  filter: blur(5px);
+}
