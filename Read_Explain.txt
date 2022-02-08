@@ -1,0 +1,19 @@
+React .js - Main Js Code
+BideoJs - Background Video Javascript
+JQuery - Javascript library
+Modelviewer.dev - 3D Render 
+
+
+https://codepen.io/mburakerman/pen/roJmaZ - Landing Page Intro Transition
+
+
+Neumorphic Css - Neumorphic Effect
+
+
+About React (){
+	- public: anything that is not used by your app when it compiles
+	- src: anything that is used when the app is compiled
+	So for example if you use an image inside a component, 
+	it should be in the src folder but if you have an image 
+	outside the app (i.e. favicon) it should be in public.
+}
