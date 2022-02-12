@@ -1,17 +1,20 @@
 import React from 'react';
+
 import Intro from './intro.js';
+import Navigasi from "./component/navigation/nav.js";
 import {
   Routes,
-  Route,
+  Route
 } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      {/* <Intro /> */}
-      {/* <Route exact path="/" component={Intro} /> */}
       <Routes>
-        <Route path='/' element={<Intro/>} />
+        <Route path='/welcome' element={<Intro/>} />
+        <Route path='/' element={<Navigasi/>}>
+          {/* <Route index path='/' element={<Intro/>} /> */}
+        </Route>
       </Routes>
     </div>
   );

@@ -40,18 +40,17 @@ div.titlebar > span{
   font-weight: bold;
 }
 
-div.buttonentry{
+.buttonentry{
   margin-top: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   animation: floating 3s ease infinite;
-  background-color: transparent;
   width: 200px;
   height: 200px;
 }
 
-div > .circle {
+.circle {
   opacity: 1;
   border-radius: 50%;
   width: 200px;
@@ -60,7 +59,11 @@ div > .circle {
   background: radial-gradient(circle, black 0%, white 120%);
 }
 
-div > #lottierocket{
+.buttonentry:hover .circle{
+  background: radial-gradient(circle, black 0%, blue 120%);
+}
+
+#lottierocket{
   width: 260px;
   height: 260px;
   position: absolute;
