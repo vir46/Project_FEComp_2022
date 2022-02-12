@@ -40,16 +40,32 @@ div.titlebar > span{
   font-weight: bold;
 }
 
-.circle {
-  opacity: 0.6;
-  margin-top: 50px;
-  background-color: #ccc;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  position: relative;
+div.buttonentry{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   animation: floating 3s ease infinite;
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
 }
+
+div > .circle {
+  opacity: 1;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: radial-gradient(circle, black 0%, white 120%);
+}
+
+div > #lottierocket{
+  width: 260px;
+  height: 260px;
+  position: absolute;
+}
+
 
 @keyframes scaleup {
   0% {
@@ -73,3 +89,4 @@ div.titlebar > span{
     transform: translateY(0);
   }
 }
+

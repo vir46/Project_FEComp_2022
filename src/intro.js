@@ -3,6 +3,7 @@ import './intro.css';
 import Spacevid from './stockgallery/sky.mp4';
 import title from './stockgallery/title.png';
 import vrlogo from './stockgallery/vr.png';
+import '@lottiefiles/lottie-player';
 
 function Intro(){
     return(
@@ -23,7 +24,11 @@ function Intro(){
                     <img src={title} alt="title" id="titlelogo"/>
                 </div>
                 <span>Discover the new world  you've never see</span>
-                <div class="circle">
+                <div class="buttonentry">
+                    <div class="circle"></div>
+                    <div id="lottierocket">
+                        <lottie-player autoplay loop src="https://assets9.lottiefiles.com/packages/lf20_dczbeiru.json"></lottie-player>
+                    </div>
                 </div>
             </div>
         </div>
