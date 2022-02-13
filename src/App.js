@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './index.css'
 import Intro from './intro.js';
 import Navigasi from "./component/navigation/nav.js";
 import {
