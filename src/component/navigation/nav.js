@@ -6,10 +6,10 @@ function Navigasi(){
     return(
         <div class="bg-gray-900 h-10">
             <nav class="absolute navMenu">
-                <a class="w-120px text-center text-orange-100 no-underline uppercase font-medium inline-block w-20" href="https://github.com">Home</a>
-                <a class="w-120px text-center text-orange-100 no-underline uppercase font-medium inline-block w-20" href="https://github.com">Blog</a>
-                <a class="w-120px text-center text-orange-100 no-underline uppercase font-medium inline-block w-20" href="https://github.com">Work</a>
-                <a class="w-120px text-center text-orange-100 no-underline uppercase font-medium inline-block w-20" href="https://github.com">About</a>
+                <a class="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20" href="https://github.com">Home</a>
+                <a class="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20" href="https://github.com">Blog</a>
+                <a class="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20" href="https://github.com">Work</a>
+                <a class="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20" href="https://github.com">About</a>
                 <div class="w-2 h-2 bg-yellow-500 opacity-0 dot"></div>
             </nav>
         </div>
