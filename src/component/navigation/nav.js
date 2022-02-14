@@ -4,7 +4,7 @@ import "./nav.css";
 
 function Navigasi(){
     return(
-        <div class="bg-gray-900 h-10">
+        <div class="navcont h-10">
             <nav class="absolute navMenu">
                 <a class="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20" href="https://github.com">Home</a>
                 <a class="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20" href="https://github.com">Blog</a>

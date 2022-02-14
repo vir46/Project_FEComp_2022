@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './intro.css';
+import styles from './intro.module.css';
 import Spacevid from './stockgallery/sky.mp4';
 import title from './stockgallery/title.png';
 import vrlogo from './stockgallery/vr.png';
@@ -10,23 +10,22 @@ function Intro(){
         <div>
         <div onContextMenu={e => e.preventDefault()}>
         <video 
-          class="videobackgroundspace"
+          class={styles.videobackgroundspace}
           autoplay="true"
           loop="true"
           muted="true">
           <source src={Spacevid} type="video/mp4"/>
         </video>
-        <image class="title" src={title}></image>
         </div>
-            <div class="titlebar">
-                <div>
-                    <img src={vrlogo} alt="logo" id="vrlogo"/>
-                    <img src={title} alt="title" id="titlelogo"/>
+            <div class={styles.titlebar}>
+                <div class={styles.imgcontainer}>
+                    <img src={vrlogo} alt="logo" id={styles.vrlogo}/>
+                    <img src={title} alt="title" id={styles.titlelogo}/>
                 </div>
                 <span>Discover the new world you've never see</span>
-                <Link to="/" class="buttonentry">
-                    <div class="circle"></div>
-                    <div id="lottierocket">
+                <Link to="/" class={styles.buttonentry}>
+                    <div class={styles.circle}></div>
+                    <div id={styles.lottierocket}>
                         <lottie-player autoplay loop src="https://assets9.lottiefiles.com/packages/lf20_dczbeiru.json"></lottie-player>
                     </div>
                 </Link>

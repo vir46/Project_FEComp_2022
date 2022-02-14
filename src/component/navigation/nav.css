@@ -1,3 +1,7 @@
+.navcont{
+    background-color: #082032;
+}
+
 .navMenu a {
     font-size: 1.2em;
     -webkit-transition: all 0.2s ease-in-out;

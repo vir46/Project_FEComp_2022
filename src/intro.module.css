@@ -21,6 +21,11 @@ div.titlebar{
   animation: scaleup 1s ease 0s 1 normal forwards;
 }
 
+.imgcontainer{
+  display: flex;
+  flex-direction: row;
+}
+
 div.titlebar > div > img{
   height: fit-content;
   width: 50vw;
