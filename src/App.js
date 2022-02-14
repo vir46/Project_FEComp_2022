@@ -1,7 +1,8 @@
 import React from 'react';
 import './index.css'
 import Intro from './intro.js';
-import Navigasi from "./component/navigation/nav.js";
+import Layout from './pages/layout.js';
+import Landpage from "./pages/landpage.js";
 import {
   Routes,
   Route
@@ -11,10 +12,10 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/welcome' element={<Intro/>} />
-        <Route path='/' element={<Navigasi/>}>
-          {/* <Route index path='/' element={<Intro/>} /> */}
-        </Route>
+      <Route path='/welcome' element={<Intro/>} />
+      <Route path='/' element={<Layout/>}>
+        <Route path='/' element={<Landpage/>} />
+      </Route>
       </Routes>
     </div>
   );
