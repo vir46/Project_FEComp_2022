@@ -1,36 +1,25 @@
-import {
-    React,
-    useEffect
-} from "react";
+import React from "react";
 import styles from "./landpage.module.css";
 import titles from '../stockgallery/title.png';
 import { Button } from 'react-bootstrap';
 import '@lottiefiles/lottie-player';
+import { FaRocket } from 'react-icons/fa';
 
 
-function Landingpage(){
-    
-    useEffect(() => {
-        var animateButton = function(e) {
-
-            e.preventDefault();
-            e.target.classList.remove('animate');
-            e.target.classList.add('animate');
-            setTimeout(function(){
-              e.target.classList.remove('animate');
-            },700);
-          };
-        //   var bubblyButtons = document.getElementById("bubblybutton");
-        //   bubblyButtons.addEventListener("click", animateButton, false);
-    });
+const Landingpage = () => {
     return(
         <div>
             {/* Head Title */}
-            <div class={styles.headcontainer}>
-                <img src={titles} alt="title" id={styles.titlelogo}/>
-                <Button id={styles.bubblybutton}>hello</Button>
-                <div id={styles.lottievr}>
-                    <lottie-player autoplay loop src="https://assets6.lottiefiles.com/packages/lf20_n0b0gzpq.json"></lottie-player>
+            <div className={styles.headcontainer}>
+                <div class={styles.titlecontainer}>
+                    <img src={titles} alt="title" id={styles.titlelogo}/>
+                    <Button  className={[styles.btntest, styles.custombtn]}>
+                        <FaRocket/>Explore
+                    </Button>
+                </div>
+                <div class={styles.imagecontainer}>
+                    <div class={styles.circle}></div>
+                    <lottie-player id={styles.lottievr} autoplay loop src="https://assets6.lottiefiles.com/packages/lf20_n0b0gzpq.json"></lottie-player>
                 </div>
             </div>
         </div>
@@ -38,4 +27,3 @@ function Landingpage(){
 }
 
 export default Landingpage;
-
