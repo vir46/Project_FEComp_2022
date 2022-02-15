@@ -1,6 +1,7 @@
 .headcontainer {
     background-color: #082032;
-    height: 500px;
+    height: 800px;
+    clip-path: ellipse(102% 100% at 50% 0%);
 }
 
 
