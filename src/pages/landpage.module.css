@@ -1,23 +1,13 @@
 .headcontainer {
+    @apply flex items-center justify-center;
     background-color: #082032;
     height: 800px;
     clip-path: ellipse(102% 100% at 50% 0%);
-}
-
-
-.headcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10vw;
 }
 
 .titlecontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+    @apply flex flex-col items-center justify-center gap-10;
 }
 
 #titlelogo {
@@ -26,50 +16,31 @@
 
 #lottievr {
     width: 20.02vw;
-    /* margin: 20px; */
 }
 
 .custombtn {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    cursor: pointer;
-    position: relative;
+    @apply rounded cursor-pointer flex flex-row h-10 py-2 px-6 relative text-white w-32 gap-2;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
     font-weight: bold;
 }
 
 .btntest {
+    @apply hover:text-white;
     background: #5B5879;
     border: none;
     z-index: 1;
 }
 
 .btntest:after {
-    position: absolute;
+    @apply rounded h-full absolute top-0 right-0 w-0;
     content: "";
-    width: 0;
-    height: 100%;
-    top: 0;
-    right: 0;
     z-index: -1;
-    background-color: #2F3B56;
-    border-radius: 5px;
-    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-        7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    background-color: rgba(47, 59, 86, 1);
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-}
-
-.btntest:hover {
-    color: #fff;
 }
 
 .btntest:hover:after {
@@ -82,18 +53,15 @@
 }
 
 .imagecontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @apply flex items-center justify-center;
 }
 
 .circle {
-    opacity: 1;
+    @apply opacity-100 absolute;
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    position: absolute;
-    background-color: #8C759B;
+    background-color: rgba(140, 117, 155, 1);
     animation: glowShadow 4s ease infinite;
 }
 
