@@ -1,9 +1,14 @@
 .headcontainer {
     @apply flex items-center justify-center;
     background-color: #082032;
-    height: 800px;
+    height: 95vh;
     clip-path: ellipse(102% 100% at 50% 0%);
     gap: 10vw;
+}
+
+
+.blackfont{
+    color: black;
 }
 
 .titlecontainer {
@@ -77,4 +82,36 @@
     100% {
         box-shadow: 0 0 100px #9ecaed;
     }
+}
+
+/* Content 1 */
+
+.content1{
+    margin-top: 5vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headingcontent1{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.bodycontent1{
+    font-size: 1.5em;
+    text-align: justify;
+    width: 600px;
+}
+
+model-viewer{
+    width: 50vw;
+    height: 100%;
 }
