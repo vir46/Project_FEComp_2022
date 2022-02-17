@@ -57,3 +57,11 @@
     transition: all 0.2s ease-in-out;
     opacity: 1;
 }
+
+.navMenu a:nth-child(5):hover~.dot {
+    -webkit-transform: translateX(540px);
+    transform: translateX(540px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
