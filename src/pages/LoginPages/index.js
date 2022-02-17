@@ -17,7 +17,6 @@ const Login = () => {
         timer: 3000,
         confirmButtonText: "OK",
       });
-      
     } else {
       Swal.fire({
         icon: "error",

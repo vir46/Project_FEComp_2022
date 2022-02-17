@@ -32,7 +32,8 @@ export default function PermanentDrawerLeft() {
         </Toolbar>
       </AppBar>
 
-      <Drawer  class={styles.drawer}
+      <Drawer
+        class={styles.drawer}
         sx={{
           width: drawerWidth,
           flexShrink: 0,
@@ -47,35 +48,27 @@ export default function PermanentDrawerLeft() {
         <Toolbar />
         <Divider />
         <List>
-          {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
+          {["Inventory", "Starred", "Whishlist", "Drafts"].map(
+            (text, index) => (
+              <ListItem button key={text}>
+                <ListItemIcon>
+                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                </ListItemIcon>
+                <ListItemText primary={text} />
+              </ListItem>
+            )
+          )}
         </List>
         <Divider />
-        <List>
-          {["All mail", "Trash", "Spam"].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
-        </List>
       </Drawer>
 
-      <Box class={styles.box}
+      <Box
+        class={styles.box}
         component="main"
         sx={{ flexGrow: 1, bgcolor: "background.default", p: 3 }}
       >
-        <Outlet class={styles.outlets}/>
+        <Outlet class={styles.outlets} />
         <Toolbar />
-          
       </Box>
     </Box>
   );
