@@ -18,7 +18,9 @@ const Footer = () => {
                     <div class={styles.footerlink}>
                         <Link id={styles.linkhome} to="/#homeofhome">Homepage</Link>
                         <Link id={styles.linkhome} to="/login">Login</Link>
-                        {/* <Link id={styles.linkhome} to="/">Homepage</Link> */}
+                        <Link id={styles.linkhome} to="/howto">How To?</Link>
+                        <Link id={styles.linkhome} to="/faq">FAQ</Link>
+                        <Link id={styles.linkhome} to="/about">About</Link>
                     </div>
                 </div>
                 <div class={styles.container3}>

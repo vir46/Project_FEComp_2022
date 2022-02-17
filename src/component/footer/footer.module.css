@@ -30,6 +30,7 @@
 } 
 
 .footerlink{
+    margin-top: 20px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
