@@ -62,12 +62,12 @@ function Navigasi() {
           FAQ
         </a>
     */}
-        <a
+        {/* <a
           class="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20"
           href="https://github.com"
         >
           About
-        </a>
+        </a> */}
         <div class="w-2 h-2 bg-yellow-500 opacity-0 dot"></div>
       </nav>
     </div>
