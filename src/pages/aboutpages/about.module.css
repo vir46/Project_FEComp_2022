@@ -1,0 +1,60 @@
+.container{
+    background-color: #082038e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > h1{
+    margin: 40px 0 40px 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.divider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider > img{
+    margin: 20px 0 20px 0;
+    width: 300px;
+    border-radius: 10%;
+    animation: glowShadow 3s infinite;
+}
+
+@keyframes glowShadow {
+    0% {
+        box-shadow: 0 0 100px white;
+    }
+
+    50% {
+        box-shadow: 0 0 100px #C093B9;
+    }
+
+    100% {
+        box-shadow: 0 0 100px #9ecaed;
+    }
+}
+
+.divider > img:hover {
+    transform: scale(1.4);
+}
+
+.divider > h3{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.divider > span{
+    margin: 10px 0 10px 0;
+}
+

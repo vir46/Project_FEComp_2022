@@ -14,19 +14,19 @@ function Navigasi() {
         </NavLink>
         <NavLink
           className="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20"
-          to="/welcome"
+          to="/howto"
         >
           How To?
         </NavLink>
         <NavLink
           className="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20"
-          to="/welcome"
+          to="/login"
         >
           Login
         </NavLink>
         <NavLink
           className="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20"
-          to="/welcome"
+          to="/faq"
         >
           FAQ
         </NavLink>
