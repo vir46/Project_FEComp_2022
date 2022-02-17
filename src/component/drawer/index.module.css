@@ -1,0 +1,13 @@
+.drawer > * {
+  color: blueviolet !important;
+  background-color: black !important;
+}
+
+.box > * {
+  color: white !important;
+  background-color: black !important;
+}
+
+.outlets{
+  margin: 300px;
+}
