@@ -40,6 +40,32 @@ const Landingpage = () => {
             <div>
                 <Bumi/>
             </div>
+            <div className={styles.content1}>
+                <div class={styles.container1}>
+                    <span className={[styles.blackfont + " " + styles.headingcontent1]}>What is Valverse?</span>
+                    <p className={[styles.blackfont + " " + styles.bodycontent1]}>
+                        Valverse is a platform that connects people with the new virtual world.
+                        Built by a team of passionate developers, Valverse connect billion of people together.
+                        What u cant do in the real world, u can do in the virtual world. 
+                        Embrace the power of infinite possibilities.
+                        Join us and become part of the future of virtual reality.
+                    </p>
+                </div>
+                <model-viewer alt="Plane" src={plane} poster="shared-assets/models/NeilArmstrong.webp" seamless-poster camera-controls></model-viewer>
+            </div>
+            <div className={styles.content1}>
+                <div class={styles.container1}>
+                    <span className={[styles.blackfont + " " + styles.headingcontent1]}>What is Valverse?</span>
+                    <p className={[styles.blackfont + " " + styles.bodycontent1]}>
+                        Valverse is a platform that connects people with the new virtual world.
+                        Built by a team of passionate developers, Valverse connect billion of people together.
+                        What u cant do in the real world, u can do in the virtual world. 
+                        Embrace the power of infinite possibilities.
+                        Join us and become part of the future of virtual reality.
+                    </p>
+                </div>
+                <model-viewer alt="Plane" src={plane} poster="shared-assets/models/NeilArmstrong.webp" seamless-poster camera-controls></model-viewer>
+            </div>
         </div>
     );
 }
