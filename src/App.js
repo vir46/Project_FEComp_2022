@@ -7,6 +7,7 @@ import LoginPages from "./pages/LoginPages/index.js";
 import StorePages from "./component/drawer/index.js";
 import HowTo from "./pages/HowTopages/howto.js";
 import FAQ from "./pages/FAQ/faq.js";
+import About from "./pages/aboutpages/about.js";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -19,9 +20,10 @@ function App() {
           <Route path="/login" element={<LoginPages />} />
           <Route path="/howto" element={<HowTo />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/about" element={<About />} />
         </Route>
         <Route path="/user" element={<Layout/>}>
-          <Route path="/user" element={<StorePages />} />
+          <Route path="/user/store" element={<StorePages />} />
         </Route>
       </Routes>
     </div>
