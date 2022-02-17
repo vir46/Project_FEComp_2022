@@ -23,7 +23,7 @@ function Intro(){
                     <img src={title} alt="title" id={styles.titlelogo}/>
                 </div>
                 <span>Discover the new world you've never see</span>
-                <Link to="/" class={styles.buttonentry}>
+                <Link to="/home" class={styles.buttonentry}>
                     <div class={styles.circle}></div>
                     <div id={styles.lottierocket}>
                         <lottie-player autoplay loop src="https://assets9.lottiefiles.com/packages/lf20_dczbeiru.json"></lottie-player>
