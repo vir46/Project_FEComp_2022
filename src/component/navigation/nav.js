@@ -36,7 +36,6 @@ function Navigasi() {
         >
           About
         </NavLink>
-
         {/* <a
           class="text-center text-orange-100 no-underline uppercase font-medium inline-block w-20"
           href="https://github.com"
