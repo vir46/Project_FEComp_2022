@@ -4,7 +4,8 @@ import Intro from "./intro.js";
 import Layout from "./pages/layout.js";
 import Landpage from "./pages/landpage.js";
 import LoginPages from "./pages/LoginPages/index.js";
-import StorePages from "./component/drawer/index.js";
+import Drawer from "./component/drawer/index.js";
+import StorePages from "./pages/store/store.js";
 import HowTo from "./pages/HowTopages/howto.js";
 import FAQ from "./pages/FAQ/faq.js";
 import About from "./pages/aboutpages/about.js";
@@ -22,7 +23,7 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/about" element={<About />} />
         </Route>
-        <Route path="/user" element={<Layout/>}>
+        <Route path="/user" element={<Drawer/>}>
           <Route path="/user/store" element={<StorePages />} />
         </Route>
       </Routes>
