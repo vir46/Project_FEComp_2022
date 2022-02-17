@@ -15,8 +15,8 @@ function App() {
       <Route path='/welcome' element={<Intro/>} />
       {/* <Route path='/welcome' element={<Intro/>} /> */}
       {/* <Route path='/' element={<Layout/>}> */}
-      <Route path='/' element={<Intro/>}>
-        <Route path='/home' element={<Landpage/>} />
+      <Route path='/' element={<Layout/>}>
+        <Route path='/' element={<Landpage/>} />
       </Route>
       </Routes>
     </div>
