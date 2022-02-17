@@ -29,13 +29,13 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className="semuanya">
       <div className="container">
         <div className="card">
           {/* <div class="main-block"> */}
           <h1>Login</h1>
 
-          <form onSubmit={alert}>
+          <form onSubmit={alert} class="formcontainer"> 
             <hr />
             {/* <label id="icon" for="name">
               <i class="fas fa-envelope"></i>
@@ -69,7 +69,7 @@ const Login = () => {
                 </a>
                 .
               </p>
-              <button type="submit" href="/">
+              <button type="submit" class="submibtn" href="/">
                 Submit
               </button>
             </div>
