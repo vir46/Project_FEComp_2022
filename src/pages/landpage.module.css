@@ -6,7 +6,6 @@
     gap: 10vw;
 }
 
-
 .blackfont{
     color: black;
 }
@@ -99,6 +98,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .headingcontent1{
     font-size: 2.5em;
     font-weight: bold;
@@ -109,7 +109,6 @@
     font-size: 1.5em;
     text-align: justify;
     width: 600px;
-    
 }
 
 model-viewer{
@@ -124,4 +123,35 @@ model-viewer{
     background-repeat: no-repeat;
     background-size: cover;
     height: 30vh;
+}
+
+/* Responsive max width 768px */
+@media only screen and (max-width: 768px) {
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .headcontainer {
+        clip-path: ellipse(150% 100% at 50% 0%);
+        gap: 15vw;
+        margin-left: -2.7rem;
+        z-index: 0;
+        height: 30rem;
+    }
+
+    .content1{
+        margin: 5vh;
+    }
+
+    .bodycontent1{
+        font-size: 1rem;
+        text-align: justify;
+        width: 200px;
+    }
+
+    .navcont {
+        min-height: 4rem;
+        z-index: 9999;
+    }
 }

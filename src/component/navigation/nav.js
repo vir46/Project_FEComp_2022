@@ -67,7 +67,6 @@ function Navigasi() {
         >
           About
         </a> */}
-        <div class="w-2 h-2 bg-yellow-500 opacity-0 dot"></div>
       </nav>
     </div>
   );

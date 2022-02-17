@@ -19,7 +19,7 @@ const Landingpage = () => {
                     </Button>
                 </div>
                 <div class={styles.imagecontainer}>
-                    <div class={styles.circle}></div>
+                    <div class={styles.circle} ></div>
                     <lottie-player id={styles.lottievr} autoplay loop src="https://assets6.lottiefiles.com/packages/lf20_n0b0gzpq.json"></lottie-player>
                 </div>
             </div>
