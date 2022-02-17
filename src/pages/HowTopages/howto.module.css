@@ -1,0 +1,43 @@
+.container{
+    background: linear-gradient(180deg, rgba(8,32,50,1) 0%, rgba(14,14,193,1) 54%, rgba(8, 32, 50, 0.63) 100%);
+}
+
+.pagetitle{
+    background-color: #082032;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    clip-path: ellipse(84% 100% at 50% 0%);
+}
+
+.content > div > h3, p{
+    color:white;
+}
+.content > div > h3{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.content > div > p{
+    text-align: justify;
+    width:  500px;
+}
+
+.content > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* : 10px 0 10px 0; */
+}
+
+.content{
+    padding: 50px 0 50px 0;
+}
+
+.contentimage{
+    margin: 20px 0 20px 0;
+    width: 500px;
+}
