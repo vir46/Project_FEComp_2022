@@ -7,11 +7,11 @@
 }
 
 .container2{
-    margin-top: 10px;
+    margin: 2rem;
     display: flex;
     flex-direction: row;
     align-items:center;
-    gap: 1000px;
+    gap: 50vw;
 } 
 
 .container3{
