@@ -30,7 +30,7 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className="semuanya">
       <div className="container">
         <div className="card">
           {/* <div class="main-block"> */}
