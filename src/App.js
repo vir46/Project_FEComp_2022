@@ -8,6 +8,7 @@ import HowTo from "./pages/HowTopages/howto.js";
 import FAQ from "./pages/FAQ/faq.js";
 import About from "./pages/aboutpages/about.js";
 import { Routes, Route } from "react-router-dom";
+import Drawer from "./component/drawer/index.js";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           <Route path="/howto" element={<HowTo />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/about" element={<About />} />
+        </Route>
+        <Route path="/user" element={<Drawer />}>
+          
         </Route>
       </Routes>
     </div>

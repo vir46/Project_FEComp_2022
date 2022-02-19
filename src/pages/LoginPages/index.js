@@ -65,7 +65,7 @@ const Login = () => {
               <p>
                 By clicking Register, you agree on our{" "}
                 <a href="https://www.w3docs.com/privacy-policy">
-                  Privacy Policy for W3Docs
+                  Privacy Policy for Valverse Company
                 </a>
                 .
               </p>

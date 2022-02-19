@@ -1,13 +1,32 @@
-.drawer > * {
-  color: blueviolet !important;
-  background-color: black !important;
+* {
+  color: black;
 }
 
-.box > * {
-  color: white !important;
-  background-color: black !important;
+.container{
+  display: flex;
+  flex-direction: column;
 }
 
-.outlets{
-  margin: 300px;
+.drawerhead{
+  background-color: #082038;
+}
+
+.drawerhead > h1, i{
+  display: flex;
+  text-align: start;
+  align-items: center;
+  font-style: italic;
+  margin-left: 10px;
+  font-size: 1.3em;
+  color:white;
+  font-weight: bold;
+}
+
+.underhead{
+  display: flex;
+  flex-direction: column;
+}
+
+#profilephoto{
+  width: 170px;
 }
